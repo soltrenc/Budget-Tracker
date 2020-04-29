@@ -19,7 +19,6 @@ request.onsuccess = function (event) {
 
 };
 
-
 request.onerror = function (event) {
     console.log("Woops! " + event.target.errorCode);
 };
